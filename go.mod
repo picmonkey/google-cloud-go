@@ -1,6 +1,6 @@
 module cloud.google.com/go
 
-go 1.9
+go 1.11
 
 require (
 	cloud.google.com/go/bigquery v1.0.1
@@ -15,14 +15,16 @@ require (
 	github.com/googleapis/gax-go/v2 v2.0.5
 	github.com/jstemmer/go-junit-report v0.0.0-20190106144839-af01ea7f8024
 	go.opencensus.io v0.22.0
-	golang.org/x/exp v0.0.0-20190925190815-26a69ce95baf
-	golang.org/x/lint v0.0.0-20190909230951-414d861bb4ac
-	golang.org/x/net v0.0.0-20190620200207-3b0461eec859
+	golang.org/x/exp v0.0.0-20191129062945-2f5052295587
+	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f
+	golang.org/x/net v0.0.0-20190724013045-ca1201d0de80
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
+	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e // indirect
+	golang.org/x/sys v0.0.0-20190726091711-fc99dfbffb4e // indirect
 	golang.org/x/text v0.3.2
-	golang.org/x/tools v0.0.0-20190925164712-ae58c0ff6b32
-	google.golang.org/api v0.9.0
-	google.golang.org/genproto v0.0.0-20190916214212-f660b8655731
+	golang.org/x/tools v0.0.0-20191206204035-259af5ff87bd
+	google.golang.org/api v0.14.0
+	google.golang.org/genproto v0.0.0-20191206224255-0243a4be9c8f
 	google.golang.org/grpc v1.21.1
 	honnef.co/go/tools v0.0.1-2019.2.3
 )
